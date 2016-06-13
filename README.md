@@ -25,4 +25,4 @@ $ git remote -v
 
 ## Syncing with this project after forking
 
-Follow the instructions at (https://help.github.com/articles/syncing-a-fork/)[https://help.github.com/articles/syncing-a-fork/].
+Follow the instructions at [https://help.github.com/articles/syncing-a-fork/](https://help.github.com/articles/syncing-a-fork/).
