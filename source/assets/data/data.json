@@ -1,0 +1,17 @@
+{
+	"provinces": [
+		{ "name": "British Columbia", "code": "BC", "pop_2016": 4707021, "pop_2011": 4400057 },
+		{ "name": "Alberta", "code": "AB", "pop_2016": 4231959, "pop_2011": 3645257 },
+		{ "name": "Saskatchewan", "code": "SK", "pop_2016": 1142570, "pop_2011": 1033381 },
+		{ "name": "Manitoba", "code": "MB", "pop_2016": 1303893, "pop_2011": 1208268 },
+		{ "name": "Ontario", "code": "ON", "pop_2016": 13873933, "pop_2011": 12851821 },
+		{ "name": "Quebec", "code": "QC", "pop_2016": 8294656, "pop_2011": 7903001 },
+		{ "name": "New Brunswick", "code": "NB", "pop_2016": 754735, "pop_2011": 751171 },
+		{ "name": "Nova Scotia", "code": "NS", "pop_2016": 945824, "pop_2011": 921727 },
+		{ "name": "Prince Edward Island", "code": "PE", "pop_2016": 146933, "pop_2011": 140204 },
+		{ "name": "Newfoundland and Labrador", "code": "NL", "pop_2016": 528336, "pop_2011": 514536 },
+		{ "name": "Yukon", "code": "YT", "pop_2016": 37193, "pop_2011": 33897 },
+		{ "name": "Northwest Territories", "code": "NT", "pop_2016": 44291, "pop_2011": 41462 },
+		{ "name": "Nunavut", "code": "NU", "pop_2016": 37174, "pop_2011": 31906 }
+	]
+}

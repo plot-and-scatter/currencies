@@ -1,0 +1,33 @@
+body, html, div,
+p, ul, ol,
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	color: $color-base-text;
+}
+
+p, ul, ol, h1, h2, h3, h4, h5, h6, {
+	margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+div.container {
+	padding: 1rem;
+}
+
+a {
+	color: $color-ps-gold;
+	font-weight: bold;
+	text-decoration: none;
+	&:hover {
+		color: lighten($color-ps-gold, 10%);
+	}
+}

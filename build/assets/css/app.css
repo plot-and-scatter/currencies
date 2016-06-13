@@ -1,0 +1,41 @@
+body, html, div,
+p, ul, ol,
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  color: #333; }
+
+p, ul, ol, h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 1rem; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal; }
+
+div.container {
+  padding: 1rem; }
+
+a {
+  color: #f5bd47;
+  font-weight: bold;
+  text-decoration: none; }
+  a:hover {
+    color: #f8ce77; }
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges; }
+
+.bar {
+  fill: steelblue; }
+
+.x.axis path {
+  display: none; }
+
+div.notes {
+  margin-top: 1rem; }
