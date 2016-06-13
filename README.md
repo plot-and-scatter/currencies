@@ -16,6 +16,8 @@ To make a new project based on this repository:
 # Clone the project
 $ git clone https://github.com/plot-and-scatter/ps-d3-template.git my-project-name
 $ cd my-project-name
+
+# Set remotes
 $ git remote set-url origin https://github.com/your-username/your-repo-name.git
 $ git remote add upstream https://github.com/plot-and-scatter/ps-d3-template.git
 
@@ -25,4 +27,18 @@ $ git remote -v
 
 ## Syncing with this project after forking
 
-Follow the instructions at [https://help.github.com/articles/syncing-a-fork/](https://help.github.com/articles/syncing-a-fork/).
+Ensure you have added the upstream remote (previous step), and then follow the instructions at [https://help.github.com/articles/syncing-a-fork/](https://help.github.com/articles/syncing-a-fork/).
+
+In brief:
+
+```sh
+# Fetch the upstream
+$ git fetch upstream
+
+# Check out your own master branch
+$ git checkout master
+
+# Merge upstream changes
+$ git merge upstream/master
+
+```
